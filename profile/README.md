@@ -1,4 +1,4 @@
-<h1 align="center">CNAP — Like Shopify, just for apps!</h1>
+<h1 align="center">CNAP — Sell and host software products!</h1>
 
 <br>
 
