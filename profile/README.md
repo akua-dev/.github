@@ -8,7 +8,7 @@
 
 <p align="center">
   <strong>CNAP</strong> simplifies the deployment, management, and monetization of cloud-native applications,<br>
-  providing a secure and user-friendly environment — <strong>Zero DevOps, Full Control!</strong>
+  providing a secure and developer-friendly environment — <strong>Zero DevOps, Full Control!</strong>
 </p>
 
 <br>
