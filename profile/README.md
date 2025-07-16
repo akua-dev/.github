@@ -21,6 +21,10 @@
   <a href="https://dash.cnap.tech/quickstart">
     <img src="https://img.shields.io/badge/TRY_FOR_FREE-EE1C25?style=flat-square" alt="Try for free">
   </a>
+  &nbsp;
+  <a href="https://docs.cnap.tech">
+    <img src="https://img.shields.io/badge/DOCS-white?style=flat-square&labelColor=000000&color=000000" alt="Documentation">
+  </a>
 </p>
 
 <br>
@@ -39,8 +43,8 @@
 
 **For Developers:**
 
-- **Quickstart**: [docs.cnap.tech/quickstart](https://docs.cnap.tech/quickstart)
-- **API Reference**: [docs.cnap.tech/api](https://docs.cnap.tech/api)
+- **Quickstart**: [dash.cnap.tech/quickstart](https://dash.cnap.tech/quickstart)
+- **Documentation**: [docs.cnap.tech](https://docs.cnap.tech)
 
 **For Platform Evaluation:**
 
