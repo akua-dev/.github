@@ -29,9 +29,25 @@
 
 <br>
 
-CNAP is a platform that converts applications into managed cloud services. It handles Kubernetes cluster management, automated billing, and customer deployment workflows, enabling developers to focus on application development rather than infrastructure operations.
+<p align="center">
+ CNAP is a platform that converts applications into managed cloud services. It handles Kubernetes cluster management, automated billing, and customer deployment workflows, enabling developers to focus on application development rather than infrastructure operations.
+</p>
 
-## ![](https://klrmedia.de/cnap/rocket-2.png)‎ ‎ Problem
+<br>
+
+## ![](https://klrmedia.de/cnap/rocket-2.png)‎ ‎ Getting Started
+
+**For Developers:**
+
+- **Quickstart**: [docs.cnap.tech/quickstart](https://docs.cnap.tech/quickstart)
+- **API Reference**: [docs.cnap.tech/api](https://docs.cnap.tech/api)
+
+**For Platform Evaluation:**
+
+- **Demo Environment**: [dev.cnap.tech](https://dev.cnap.tech)
+- **Contact**: [robin@cnap.tech](mailto:robin@cnap.tech)
+
+## ![](https://klrmedia.de/cnap/stack-pl.png)‎ ‎ Problem
 
 Converting code projects to managed services requires significant infrastructure investment:
 
@@ -110,20 +126,6 @@ operational overhead.
 
 [![quickstart website](https://klrmedia.de/cnap/banner-3.svg)‎](https://dash.cnap.tech)
 
-## Getting Started
-
-**For Developers:**
-
-- **Documentation**: [docs.cnap.tech](https://docs.cnap.tech/)
-- **Quickstart**: [docs.cnap.tech/quickstart](https://docs.cnap.tech/quickstart)
-- **API Reference**: [docs.cnap.tech/api](https://docs.cnap.tech/api)
-
-**For Platform Evaluation:**
-
-- **Demo Environment**: [dev.cnap.tech](https://dev.cnap.tech)
-- **Contact**: [robin@cnap.tech](mailto:robin@cnap.tech)
-
-<br>
 
 [![marketplace hero](./marketplace-hero-3.webp)](https://dash.cnap.tech/marketplace)
 
