@@ -1,14 +1,14 @@
-<h1 align="center">CNAP — Sell and host software products!</h1>
+<h1 align="center">CNAP — Sell and Host Software Products!</h1>
 
 <br>
 
 <p align="center">
-  <em>Turn your open-source project into a profitable SaaS</em>  
+  <em>Turn code projects into managed cloud services</em>  
 </p>
 
 <p align="center">
-  <strong>CNAP</strong> simplifies the deployment, management, and monetization of cloud-native applications,<br>
-  providing a secure and developer-friendly environment — <strong>Less DevOps, Full Cost Control!</strong>
+  <strong>CNAP</strong> automates the deployment, management, and monetization of cloud-native applications<br>
+  with built-in infrastructure operations, billing, and multi-tenancy.
 </p>
 
 <br>
@@ -18,118 +18,118 @@
     <img src="https://img.shields.io/badge/DISCORD-7289DA?style=flat-square" alt="Discord">
   </a>
   &nbsp;
-  <a href="https://dash.cnap.tech">
+  <a href="https://dash.cnap.tech/quickstart">
     <img src="https://img.shields.io/badge/TRY_FOR_FREE-EE1C25?style=flat-square" alt="Try for free">
   </a>
 </p>
 
 <br>
 
-[![landing page](https://klrmedia.de/cnap/hero-3.webp)](https://cnap.tech)
+[![landing hero](./landing-hero.png)](https://cnap.tech)
 
 <br>
 
-## ![](https://klrmedia.de/cnap/rocket-2.png)‎ ‎ An interconnected cloud-native community
+CNAP is a platform that converts applications into managed cloud services. It handles Kubernetes cluster management, automated billing, and customer deployment workflows, enabling developers to focus on application development rather than infrastructure operations.
 
-The cloud-native community is the 💗 heart of CNAP and fundamental to how we build and deploy software today. We're addressing the key challenges in the cloud-native space:
+## ![](https://klrmedia.de/cnap/rocket-2.png)‎ ‎ Problem
 
-- **72% of companies use multiple cloud-native application platforms**, creating inconsistency and management chaos.
-- **65% of stakeholders report direct financial benefits from cloud-native approaches**, including new revenue-generating customer experiences (26%) and improved IT staff efficiency (70%).
-- **55% struggle with security and compliance**, risking breaches and slowdowns.
+Converting code projects to managed services requires significant infrastructure investment:
 
-> ### Are you part of the cloud-native revolution?
-> Yes? Awesome! If not, we can help you get started! Cloud-native development is driven by people just like you. Learn more about [how to get involved](https://docs.cnap.tech/quickstart).
+- **Infrastructure Complexity**: Setting up multi-tenant Kubernetes, monitoring, scaling, and security
+- **Billing Integration**: Implementing usage tracking, invoicing, and payment processing
+- **Operational Overhead**: 24/7 monitoring, customer support, and maintenance
+- **Time to Market**: 6-12 months of engineering effort before first customer deployment
 
-<br>
+This creates a barrier for developers wanting to monetize their software and limits the number of managed service offerings in the market.
 
-## ![](https://klrmedia.de/cnap/icon-build.png)‎ ‎ What you can do with CNAP
+<details>
 
-CNAP empowers cloud-native development with a streamlined platform that handles infrastructure so you can focus on building.
+<summary>Longer version</summary>
 
-- Monetize apps instantly with built-in Stripe integration
-- Deploy to any Kubernetes cluster with one-click simplicity
-- Third-Party Integration: Seamlessly integrate your favorite tools and services
-- Self-Service Freedom: Access thousands of apps and infrastructure options on demand
-- Gain full transparency and control over your resources (CPU, RAM, storage)
-- Enterprise Security: RBAC, audit logs, and multi-tenant isolation
+Development teams, agencies, DevOps professionals, and enterprises frequently struggle with the **complexity, 
+time-consumption, and inconsistency** of deploying and managing cloud-native applications across various 
+environments. Many successful open-source projects **fail to generate revenue effectively** because converting 
+them to managed offerings takes significant engineering effort and extensive cloud expertise. This leads to:
+- Slower time-to-market for new applications and features.
+- Inefficient use of developer time on operational tasks.
+- Challenges in scaling operations and managing private clouds.
+</details>
 
-<br>
+## ![](https://klrmedia.de/cnap/icon-build.png)‎ ‎ Solution
 
-## ![](https://klrmedia.de/cnap/stack-pl.png)‎ ‎ Our platform architecture provides
+CNAP provides the infrastructure layer for managed services:
 
-| Developer Portal                 | Control Panel              | Application Layer        | Customer Environments       |
-|:---------------------------------|:---------------------------|:-------------------------|:----------------------------|
-| Service Configuration            | Cluster Automation         | Helm Deployment          | Automatic Scaling           |
-| Billing Management               | Multi-Tenancy              | Version Management       | Resource Monitoring         |
-| Customer Dashboard               | Resource Orchestration     | Health Monitoring        |                             |
+- **Rapid Go-to-Market**: Turn your code projects into fully managed cloud services with minimal setup and 
+operational overhead.
+- **Kubernetes as a Service**: Automated cluster provisioning, scaling, and maintenance
+- **Multi-tenant Architecture**: Isolated customer environments with resource controls
+- **Integrated Billing**: Stripe integration with usage metering and automated invoicing
+- **Deployment Automation**: Helm-based application packaging and one-click/on-checkout customer deployments
 
-<br>
+## ![](https://klrmedia.de/cnap/star-2.png)‎ ‎ How It Works
 
-## ![](https://klrmedia.de/cnap/plus-2.png)‎ ‎ Additional Features
+### For Application Providers
 
-- Automatic billing and usage tracking
-- Pre-configured monitoring, automatic scaling, and failover
-- Single Sign-On (SSO): Access all your apps with one account
-- Centralized Billing: Pay for app usage and infrastructure in one place
-- "Deploy Button": Easily deploy apps directly from GitHub repositories
-- Golden Paths for secure, repeatable production deployments
-- Advanced Cost Management: Monitor, optimize, and get transparent billing for your cloud resource usage
-- Collaboration Hub: Share knowledge, best practices, and improve team cooperation
-- Rent out infrastructure and control app installations
-- Customer management dashboard with instant onboarding
-
-<br>
-
-## ![](https://klrmedia.de/cnap/star-2.png)‎ ‎ How CNAP works
-
-### For Developers Selling Software
-
-1. **Package Once, Sell Everywhere:** _With our simple CLI tool, you can transform your app into a Helm package. Your software will instantly be deployable in any region on any K8s cluster._
-2. **Set Your Price, We Handle The Rest:** _Connect Stripe, set your pricing model — We handle all payments, licensing, and subscription management automatically.‍_
-3. **Your Customers Deploy With One Click:** _Your customers select a region, click deploy, and your software is running in their environment instantly. No DevOps team required._
+1.  **Package Application**: Convert existing applications to Helm charts or import from Artifact Hub
+2.  **Configure Pricing**: Set usage-based or subscription pricing models via Stripe integration
+3.  **Deploy**: Customers can buy applications in their chosen regions with automated provisioning
 
 ### For Platform Operators
 
-1. **Create or Import K8s Cluster:** _Choose a region for K8s clusters or connect your existing ones. One control panel to rule them all._
-2. **Fill Your Marketplace Instantly:** _One-click import popular Helm charts or create custom marketplace offerings. Your developers get immediate access to production-ready components._
-3. **Deploy Anywhere, Bill Automatically:** _Let your teams deploy across regions while maintaining complete visibility and automatic chargeback. No more surprise cloud bills._
+1. **Cluster Management**: Create new clusters or import existing Kubernetes clusters (EKS, GKE, AKS, self-managed)
+2. **Application Marketplace**: Import Helm charts and configure application offerings
+3. **Customer Management**: Handle deployments, billing, and resource allocation across multiple customers
+
+<br>
+
+## ![](https://klrmedia.de/cnap/plus-2.png)‎ ‎ Technical Features
+
+- **Multi-tenant Isolation**: Per-customer clusters or dedicated namespaces with network policies
+- **Vendor Neutrality**: Deploy on cost-effective CNAP-managed clusters or bring your own Kubernetes (EKS, GKE, AKS, self-managed, bare metal)
+- **Automated Scaling**: Horizontal pod autoscaling and cluster autoscaling based on resource usage
+- **Monitoring & Observability**: Prometheus, Grafana, and logging integration with per-customer dashboards
+- **CI/CD Integration**: GitOps workflows and automated application updates
+- **API-First**: REST API for all platform operations and integrations
+
+## ![](https://klrmedia.de/cnap/stack-pl.png)‎ ‎ Target Market
+
+**Primary Users:**
+
+- **SaaS Developers** converting code projects into managed offerings
+- **Software Vendors** needing customer-isolated deployments for compliance
+- **Service Providers** managing multiple customer environments
+- **Startups** requiring rapid go-to-market for cloud services
+
+**Market Segments:**
+
+- Regulated industries requiring data isolation (healthcare, finance, government)
+- B2B software requiring customer-specific deployments
+- Open-source projects seeking monetization paths
 
 <br>
 
 [![quickstart website](https://klrmedia.de/cnap/banner-3.svg)‎](https://dash.cnap.tech)
 
+## Getting Started
+
+**For Developers:**
+
+- **Documentation**: [docs.cnap.tech](https://docs.cnap.tech/)
+- **Quickstart**: [docs.cnap.tech/quickstart](https://docs.cnap.tech/quickstart)
+- **API Reference**: [docs.cnap.tech/api](https://docs.cnap.tech/api)
+
+**For Platform Evaluation:**
+
+- **Demo Environment**: [dev.cnap.tech](https://dev.cnap.tech)
+- **Contact**: [robin@cnap.tech](mailto:robin@cnap.tech)
+
 <br>
 
-## ![](https://klrmedia.de/cnap/flag.png)‎ ‎ Our Goal
-
-To revolutionize cloud-native application platforms by creating a unified ecosystem that simplifies deployment, management, and monetization.
-
-<ins>**CNAP isn’t just another platform — it’s the shortcut to cloud-native success.**</ins>
-
-
-### What's Next?
-
-See what's coming up on our [public roadmap](https://docs.cnap.tech/roadmap) and [let us know](https://cnap.tech/survey) if you have any suggestions.
-We're always looking for talented, passionate people to join our team and help shape the future of cloud-native applications!
-
-<details>
-	<summary>"Tell me more, I can't get enough!"</summary>
-	<br>
-	<ul>
-		<li>CNAP is built using powerful 🔨 open source technologies like <a href="https://github.com/kubernetes/kubernetes">Kubernetes</a>, <a href="https://github.com/golang/go">Go</a>, and <a href="https://github.com/getporter/porter">Porter (CNAB)</a> among others.</li>
-		<li>Our platform supports various application architectures and deployment patterns to meet diverse stakeholder requirements.</li>
-		<li>We're committed to providing a consistent platform experience across multiple cloud environments and on-premises infrastructure.</li>
-		<li>CNAP emphasizes automation, integration, and self-service capabilities to streamline the entire application lifecycle.</li>
-		<li>We combine cloud-native application platforms with modern disciplines like platform engineering and DevSecOps to create a smoother experience.</li>
-		<li>Our approach aims to balance flexibility and consistency by providing developers with a self-service model that is curated and offers platform teams and security managers a repeatable and consistent path to production.</li>
-		<li>CNAP's architecture is designed to scale effortlessly with increasing numbers of users, apps, and providers, ensuring we can meet future market demands.</li>
-		<li>We prioritize transparency for providers, allowing them to showcase their unique offerings and set their own prices, while giving users the information they need to make informed decisions.</li>
-		<li>Our platform facilitates improved collaboration and knowledge sharing between developers, operations teams, and other stakeholders, recognizing that both technical aspects and user experience are crucial in the cloud-native application landscape.</li>
-	</ul>
-</details>
+[![marketplace hero](./marketplace-hero-3.webp)](https://dash.cnap.tech/marketplace)
 
 ---
-<sub>🤫 Psst! Want to learn more about cloud-native technologies? Check out the [CNCF landscape](https://landscape.cncf.io/).</sub>
+
+<sub>Built with open-source technologies. Learn more about the [CNCF ecosystem](https://landscape.cncf.io/).</sub>
 
 <!--
 Made with ☁️ by the CNAP team
