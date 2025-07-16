@@ -23,7 +23,7 @@
   </a>
   &nbsp;
   <a href="https://docs.cnap.tech">
-    <img src="https://img.shields.io/badge/DOCS-white?style=flat-square&color=000000" alt="Documentation">
+    <img src="https://img.shields.io/badge/DOCS-white?style=flat-square&color=blue" alt="Documentation">
   </a>
 </p>
 
