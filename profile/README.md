@@ -47,6 +47,10 @@
 - **Demo Environment**: [dev.cnap.tech](https://dev.cnap.tech)
 - **Contact**: [robin@cnap.tech](mailto:robin@cnap.tech)
 
+<br>
+
+[![join discord](./cta-discord_1.webp)](https://discord.gg/gNh9bUWVp7)
+
 ## ![](https://klrmedia.de/cnap/stack-pl.png)‎ ‎ Problem
 
 Converting code projects to managed services requires significant infrastructure investment:
@@ -97,6 +101,8 @@ operational overhead.
 3. **Customer Management**: Handle deployments, billing, and resource allocation across multiple customers
 
 <br>
+
+[![start to build](./start-to-build-cta-cnap.svg)](https://dash.cnap.tech/quickstart)
 
 ## ![](https://klrmedia.de/cnap/plus-2.png)‎ ‎ Technical Features
 
