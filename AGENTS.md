@@ -9,7 +9,8 @@ The rendered profile content lives in `profile/README.md`.
   product/docs quickstart, not a long marketing page.
 - Optimize for less text, clearer scanning, and direct paths for builders to
   understand what Akua is and where to start.
-- Keep the hero image at the top unless the captain changes the design.
+- Keep the hero image, including its GitHub-safe baked-in frame, at the top
+  unless the captain changes the design.
 - Do not duplicate the hero headline immediately below the image.
 - Link out to `https://akua.dev`, full docs, and quickstart pages instead of
   copying long sections into the profile.
