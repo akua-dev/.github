@@ -1,7 +1,11 @@
-<h1 align="center">Akua</h1>
+<!-- markdownlint-disable MD033 MD041 -->
 
 <p align="center">
-  <strong>AI agents that build your cloud. On infrastructure you own. Production safe.</strong>
+  <img
+    src="assets/akua-github-profile-banner.png"
+    alt="Akua: agents that build your cloud, on infrastructure you own."
+    width="100%"
+  >
 </p>
 
 <p align="center">
@@ -14,35 +18,33 @@
   <a href="https://docs.akua.dev/ai">AI &amp; Agents</a>
 </p>
 
-Akua is the cloud-native application platform for agents and teams. Connect an agent, deploy applications, manage infrastructure, and sell cloud-native software from one workspace.
+Akua is a cloud-native application platform for agents and teams. Connect an
+agent, deploy applications, manage infrastructure, and package cloud-native
+software from one workspace.
 
-## What Akua Provides
+## Start Building
 
-| Capability | What it helps you do |
-| --- | --- |
-| Agentic operations | Use hosted agents or MCP-compatible tools to work from current workspace context. |
-| Compute | Create managed Kubernetes clusters, import existing clusters, add workers, and choose regions. |
-| Packaging | Turn Helm, Kustomize, and composed sources into reusable Akua Packages. |
-| Delivery | Install, render, customize, version, and update applications for internal or customer workspaces. |
-| Networking | Expose applications through preview domains, direct IP routing, custom domains, and Gateway API routes. |
-| Commerce | Package software as Products, create Offers, and guide customers through checkout-ready installs. |
-| Platform controls | Manage workspaces, organizations, API tokens, private registries, billing, security, and quotas. |
+- [Quickstart](https://docs.akua.dev/quickstart) - create an account, connect an
+  agent, and start from workspace context.
+- [Docs](https://docs.akua.dev) - learn the platform concepts and workflows.
+- [AI & Agents](https://docs.akua.dev/ai) - connect external AI tools through
+  MCP or use hosted agents in the dashboard.
+- [Bring your own cloud](https://docs.akua.dev/platform/byoc) - understand how
+  Akua works with infrastructure you own.
+
+## What You Can Build
+
+- Agentic operations with controlled infrastructure and deployment changes.
+- Managed or imported Kubernetes clusters, workers, and regions.
+- Reusable packages from Helm, Kustomize, and composed sources.
+- Application installs, renders, customization, versions, and updates.
+- Products and Offers for checkout-ready cloud-native installs.
 
 ## Built For
 
-| If you are... | Akua helps you... |
-| --- | --- |
-| A platform team | Give agents a controlled way to prepare infrastructure, deploy software, and surface reviewable changes. |
-| A software vendor | Ship cloud-native products into customer-owned or managed environments without rebuilding an operations platform. |
-| An infrastructure operator | Keep ownership of cloud accounts, regions, workers, secrets, and approval boundaries while Akua handles the orchestration layer. |
-
-## Start Here
-
-- [Quickstart](https://docs.akua.dev/quickstart) - create an Akua account, connect an agent, and start from workspace context.
-- [Platform capabilities](https://docs.akua.dev/capabilities) - map Compute, Packaging, Delivery, Networking, Commerce, Agents, and Platform to the docs.
-- [AI & Agents](https://docs.akua.dev/ai) - connect external AI tools through MCP or use hosted agents in the dashboard.
-- [Bring your own cloud](https://docs.akua.dev/platform/byoc) - understand how Akua works with infrastructure you own.
-
----
-
-Akua is built for teams that want agentic cloud operations with explicit control, review, and ownership boundaries.
+- **Platform teams** giving agents a controlled way to prepare infrastructure and
+  deploy software.
+- **Software vendors** shipping cloud-native products into customer-owned or
+  managed environments.
+- **Infrastructure operators** keeping ownership of cloud accounts, regions,
+  workers, secrets, and approval boundaries.
