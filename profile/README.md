@@ -3,7 +3,7 @@
 <p align="center">
   <img
     src="assets/akua-github-profile-banner.png"
-    alt="Akua: agents that build your cloud, on infrastructure you own."
+    alt="Akua. Build it once. Install it for every customer."
     width="100%"
   >
 </p>
@@ -15,38 +15,30 @@
   ·
   <a href="https://docs.akua.dev/quickstart">Quickstart</a>
   ·
-  <a href="https://docs.akua.dev/ai">AI &amp; Agents</a>
+  <a href="https://github.com/akua-dev/akua">CLI</a>
 </p>
 
-Akua is a cloud-native application platform for agents and teams. Connect an
-agent, deploy applications, manage infrastructure, and package cloud-native
-software from one workspace.
+**Build it once. Install it for every customer.**
 
-## Start Building
+Each customer gets their own install, on a server run by Akua or on their own.
+Every one stays up to date. Your coding agent runs it all.
 
-- [Quickstart](https://docs.akua.dev/quickstart) - create an account, connect an
-  agent, and start from workspace context.
-- [Docs](https://docs.akua.dev) - learn the platform concepts and workflows.
-- [AI & Agents](https://docs.akua.dev/ai) - connect external AI tools through
-  MCP or use hosted agents in the dashboard.
-- [GitHub Actions runner profiles](../RUNNERS.md) - select the stable
-  self-hosted CI label by declared resources and capabilities.
-- [Bring your own cloud](https://docs.akua.dev/platform/byoc) - understand how
-  Akua works with infrastructure you own.
+Akua is for builders - agencies, freelancers, consultants and small product
+teams - who build software for customers with coding agents.
 
-## What You Can Build
+## Start with your coding agent
 
-- Agentic operations with controlled infrastructure and deployment changes.
-- Managed or imported Kubernetes clusters, workers, and regions.
-- Reusable packages from Helm, Kustomize, and composed sources.
-- Application installs, renders, customization, versions, and updates.
-- Products and Offers for checkout-ready cloud-native installs.
+Paste the prompt from the [Quickstart](https://docs.akua.dev/quickstart) into
+your coding agent. It installs the CLI, signs you in and sets Akua up with you.
 
-## Built For
+## Open source
 
-- **Platform teams** giving agents a controlled way to prepare infrastructure and
-  deploy software.
-- **Software vendors** shipping cloud-native products into customer-owned or
-  managed environments.
-- **Infrastructure operators** keeping ownership of cloud accounts, regions,
-  workers, secrets, and approval boundaries.
+- [akua-dev/akua](https://github.com/akua-dev/akua) - the open-source Akua CLI
+  and `akuapkg`, the typed package tool.
+- [akua-dev/homebrew-tap](https://github.com/akua-dev/homebrew-tap) - install
+  with `brew install akua-dev/tap/akua`.
+
+## Learn more
+
+- [akua.dev](https://akua.dev) - the product.
+- [Docs](https://docs.akua.dev) - concepts, workflows and the API reference.
